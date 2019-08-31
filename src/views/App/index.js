@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import BottomCta from "../../components/BottomCta";
+import Hero from "./Hero";
 import { BrowserRouter as Router } from "react-router-dom";
 
 const App = () => {
@@ -9,9 +10,10 @@ const App = () => {
       <Router>
         <Navbar />
         <BottomCta />
+        <Hero />
       </Router>
 
-      <br />
+      <div id="section1"></div>
       <br />
       <br />
       <br />
