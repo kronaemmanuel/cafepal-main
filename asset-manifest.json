@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cafepal-main/static/css/main.8eb34f9b.chunk.css",
-    "main.js": "/cafepal-main/static/js/main.b126e078.chunk.js",
-    "main.js.map": "/cafepal-main/static/js/main.b126e078.chunk.js.map",
+    "main.css": "/cafepal-main/static/css/main.e5e223e6.chunk.css",
+    "main.js": "/cafepal-main/static/js/main.6e4b4711.chunk.js",
+    "main.js.map": "/cafepal-main/static/js/main.6e4b4711.chunk.js.map",
     "runtime~main.js": "/cafepal-main/static/js/runtime~main.4387119a.js",
     "runtime~main.js.map": "/cafepal-main/static/js/runtime~main.4387119a.js.map",
-    "static/js/2.44cca11d.chunk.js": "/cafepal-main/static/js/2.44cca11d.chunk.js",
-    "static/js/2.44cca11d.chunk.js.map": "/cafepal-main/static/js/2.44cca11d.chunk.js.map",
+    "static/js/2.cba2fd46.chunk.js": "/cafepal-main/static/js/2.cba2fd46.chunk.js",
+    "static/js/2.cba2fd46.chunk.js.map": "/cafepal-main/static/js/2.cba2fd46.chunk.js.map",
     "index.html": "/cafepal-main/index.html",
-    "precache-manifest.2647ddb16b402b568bce8dada7a61552.js": "/cafepal-main/precache-manifest.2647ddb16b402b568bce8dada7a61552.js",
+    "precache-manifest.3ee59a13f00edd2e0fa85fadac1ebec9.js": "/cafepal-main/precache-manifest.3ee59a13f00edd2e0fa85fadac1ebec9.js",
     "service-worker.js": "/cafepal-main/service-worker.js",
-    "static/css/main.8eb34f9b.chunk.css.map": "/cafepal-main/static/css/main.8eb34f9b.chunk.css.map",
+    "static/css/main.e5e223e6.chunk.css.map": "/cafepal-main/static/css/main.e5e223e6.chunk.css.map",
     "static/media/Hero.module.css": "/cafepal-main/static/media/hero_mobile.99bbbddf.png",
-    "static/media/logo_desktop.ce7c7020.svg": "/cafepal-main/static/media/logo_desktop.ce7c7020.svg",
-    "static/media/logo_mobile.157d3d89.svg": "/cafepal-main/static/media/logo_mobile.157d3d89.svg"
+    "static/media/logo_blue.157d3d89.svg": "/cafepal-main/static/media/logo_blue.157d3d89.svg",
+    "static/media/logo_white.ce7c7020.svg": "/cafepal-main/static/media/logo_white.ce7c7020.svg"
   }
 }
