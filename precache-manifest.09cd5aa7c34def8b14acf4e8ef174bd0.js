@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "deefbc7542046af0530c860b4f38a0a5",
+    "revision": "557c0fa4e84ae41a2ab3ee2d89732cc0",
     "url": "/cafepal-main/index.html"
   },
   {
-    "revision": "51dcd95213286bbd7ff6",
-    "url": "/cafepal-main/static/css/main.68b70a06.chunk.css"
+    "revision": "2e8a94e63a8b3a103c61",
+    "url": "/cafepal-main/static/css/main.16b31396.chunk.css"
   },
   {
-    "revision": "2fa076c30f37e6ce71db",
-    "url": "/cafepal-main/static/js/2.eacf7844.chunk.js"
+    "revision": "10cd961ff9b508e40c20",
+    "url": "/cafepal-main/static/js/2.686931b9.chunk.js"
   },
   {
-    "revision": "51dcd95213286bbd7ff6",
-    "url": "/cafepal-main/static/js/main.96ced4a8.chunk.js"
+    "revision": "2e8a94e63a8b3a103c61",
+    "url": "/cafepal-main/static/js/main.275c7996.chunk.js"
   },
   {
     "revision": "55e31c6a5459165899c7",
