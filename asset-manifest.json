@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/cafepal-main/static/css/main.e5e223e6.chunk.css",
-    "main.js": "/cafepal-main/static/js/main.6e4b4711.chunk.js",
-    "main.js.map": "/cafepal-main/static/js/main.6e4b4711.chunk.js.map",
+    "main.css": "/cafepal-main/static/css/main.3c3b1d9e.chunk.css",
+    "main.js": "/cafepal-main/static/js/main.133396dc.chunk.js",
+    "main.js.map": "/cafepal-main/static/js/main.133396dc.chunk.js.map",
     "runtime~main.js": "/cafepal-main/static/js/runtime~main.4387119a.js",
     "runtime~main.js.map": "/cafepal-main/static/js/runtime~main.4387119a.js.map",
-    "static/js/2.cba2fd46.chunk.js": "/cafepal-main/static/js/2.cba2fd46.chunk.js",
-    "static/js/2.cba2fd46.chunk.js.map": "/cafepal-main/static/js/2.cba2fd46.chunk.js.map",
+    "static/js/2.eacf7844.chunk.js": "/cafepal-main/static/js/2.eacf7844.chunk.js",
+    "static/js/2.eacf7844.chunk.js.map": "/cafepal-main/static/js/2.eacf7844.chunk.js.map",
     "index.html": "/cafepal-main/index.html",
-    "precache-manifest.3ee59a13f00edd2e0fa85fadac1ebec9.js": "/cafepal-main/precache-manifest.3ee59a13f00edd2e0fa85fadac1ebec9.js",
+    "precache-manifest.79203094be21d7dea5b65a02fa4445a6.js": "/cafepal-main/precache-manifest.79203094be21d7dea5b65a02fa4445a6.js",
     "service-worker.js": "/cafepal-main/service-worker.js",
-    "static/css/main.e5e223e6.chunk.css.map": "/cafepal-main/static/css/main.e5e223e6.chunk.css.map",
+    "static/css/main.3c3b1d9e.chunk.css.map": "/cafepal-main/static/css/main.3c3b1d9e.chunk.css.map",
     "static/media/Hero.module.css": "/cafepal-main/static/media/hero_mobile.99bbbddf.png",
     "static/media/logo_blue.157d3d89.svg": "/cafepal-main/static/media/logo_blue.157d3d89.svg",
-    "static/media/logo_white.ce7c7020.svg": "/cafepal-main/static/media/logo_white.ce7c7020.svg"
+    "static/media/logo_white.ce7c7020.svg": "/cafepal-main/static/media/logo_white.ce7c7020.svg",
+    "static/media/p1_device.png": "/cafepal-main/static/media/p1_device.38c791a0.png",
+    "static/media/p1_screen01.png": "/cafepal-main/static/media/p1_screen01.6ac81048.png",
+    "static/media/p1_screen02.png": "/cafepal-main/static/media/p1_screen02.78d29125.png",
+    "static/media/p1_screen03.png": "/cafepal-main/static/media/p1_screen03.85d6a370.png",
+    "static/media/p1_screen04.png": "/cafepal-main/static/media/p1_screen04.ec6aae5c.png"
   }
 }
