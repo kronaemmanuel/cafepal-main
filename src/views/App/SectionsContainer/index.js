@@ -4,9 +4,11 @@ import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import ProductList from "./ProductList";
+import Section4 from "./Section4";
+import Section5 from "./Section5";
 
 const SectionsContainer = () => {
-  const [prodListVisible, setProdListVisible] = useState(true);
+  const [prodListVisible, setProdListVisible] = useState(false);
 
   const toggleProdList = () => {
     console.log("Called");
@@ -24,6 +26,12 @@ const SectionsContainer = () => {
       <section className={styles.section} id="section3">
         <Section3 isClosed={!prodListVisible} toggleProdList={toggleProdList} />
         <ProductList isClosed={!prodListVisible} />
+      </section>
+      <section className={styles.section} id="section4">
+        <Section4 />
+      </section>
+      <section className={styles.section} id="section5">
+        <Section5 />
       </section>
     </div>
   );

@@ -1,6 +1,9 @@
 .section {
-  position: relative;
   height: 680px;
+  background-color: #2f5fd2;
+  color: white;
+  position: relative;
+  text-align: center;
 }
 
 .wrapper {
@@ -9,49 +12,45 @@
   padding: 0;
   width: 100%;
   text-align: center;
+  max-width: 1024px;
   margin: 0 auto;
 }
 
 .content {
-  position: static;
-  margin-top: 64px;
+  position: absolute;
+  height: initial;
   width: 100%;
-  top: 50%;
 }
 
 .text {
+  margin-top: 0;
   margin-bottom: 20px;
   font-size: 28px;
   line-height: 38px;
-  font-weight: 400;
   letter-spacing: -0.5px;
-}
-
-.redborder {
-  border: 1px solid red !important;
+  font-weight: 400;
 }
 
 @media (min-width: 480px) {
   .section {
-    height: 1020px;
-  }
-
-  .wrapper {
-    max-width: 1024px;
-    width: 95%;
-    padding: 0 24px;
+    height: 915px;
     text-align: left;
   }
 
+  .wrapper {
+    padding: 0 24px;
+    width: 95%;
+  }
+
   .content {
+    height: 100%;
     position: absolute;
-    margin-top: -170px;
   }
 
   .text {
     font-weight: 300;
     font-size: 48px;
     line-height: 66px;
-    margin-bottom: 0px;
+    margin-top: 121px;
   }
 }

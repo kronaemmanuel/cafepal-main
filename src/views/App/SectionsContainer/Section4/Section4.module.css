@@ -1,0 +1,171 @@
+.section {
+  color: #454f5d;
+  overflow: hidden;
+  height: 650px;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.content {
+  position: static;
+  margin: 0;
+  padding-top: 64px;
+  width: 100%;
+  top: 50%;
+}
+
+.title {
+  position: initial;
+  text-align: center;
+}
+
+.text {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 22px;
+  word-break: keep-all;
+  width: 85%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #454f5d;
+  margin-top: 28px;
+}
+
+.cards {
+  position: static;
+  margin-top: 48px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #f7f8fa;
+  color: #768399;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.total {
+  font-size: 34px;
+  color: #3a4961;
+  line-height: 38px;
+  margin: 12px 0 32px 4px;
+}
+
+.card {
+  position: static;
+  margin-top: 48px;
+  top: -100px;
+}
+
+.cardItem {
+  margin: 10px auto;
+  width: 308px;
+  height: 100px;
+  text-align: left;
+  background: #ffffff;
+  box-shadow: 4px 6px 9px 0 rgba(58, 62, 49, 0.05),
+    8px 22px 60px 0 rgba(57, 58, 48, 0.07);
+  border-radius: 4px;
+  list-style: none;
+  position: relative;
+}
+
+.cardImg {
+  width: 82px;
+  height: 52px;
+  left: 28px;
+  top: 50%;
+  margin-top: -26px;
+  position: absolute;
+}
+
+.cardText {
+  top: 25px;
+  position: absolute;
+  left: 132px;
+}
+
+.cardName {
+  color: #666666;
+  height: 22px;
+  display: block;
+  font-size: 15px;
+  text-align: left;
+}
+
+.cardBalance {
+  margin-top: 2px;
+  font-weight: bold;
+  height: 22px;
+  display: block;
+  font-size: 15px;
+  text-align: left;
+}
+
+@media (min-width: 480px) {
+  .section {
+    height: 920px;
+  }
+
+  .wrapper {
+    width: 95%;
+    padding: 0 24px;
+  }
+
+  .content {
+    position: absolute;
+    margin-top: -170px;
+    padding: 0;
+  }
+
+  .title {
+    right: 48px;
+    text-align: left;
+    position: absolute;
+  }
+
+  .text {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 66px;
+  }
+
+  .description {
+    font-size: 17px;
+    line-height: 27px;
+    margin: 28px 0 0 0;
+  }
+
+  .cards {
+    position: absolute;
+    top: -100px;
+    text-align: left;
+  }
+
+  .card {
+    position: absolute;
+  }
+
+  .cardItem {
+    width: 383px;
+    height: 100px;
+    margin: 0 0 12px 0;
+  }
+}

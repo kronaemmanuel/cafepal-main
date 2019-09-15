@@ -1,41 +1,12 @@
 import React, { useState } from "react";
 import styles from "./Multislider.module.css";
-import iphoneImg from "../../assets/images/p1_device.png";
-import screen1 from "../../assets/images/p1_screen01.png";
-import screen2 from "../../assets/images/p1_screen02.png";
-import screen3 from "../../assets/images/p1_screen03.png";
-import screen4 from "../../assets/images/p1_screen04.png";
 
-const Multislider = () => {
+const Multislider = props => {
+  // TODO: Refactor with proper themeing support
   const [currentSlide, setSlide] = useState(0);
   const [lastSlide, setLastSlide] = useState(null);
 
-  const screens = [screen1, screen2, screen3, screen4];
-  const features = [
-    "Autofill",
-    "Split the Bill",
-    "Automatic Transfers",
-    "QR Payments"
-  ];
-  const descriptions = [
-    <span>
-      Copy the text of recipient's bank information,{" "}
-      <br className="desk-only-break" />
-      and Toss will prefill it for your transfers
-    </span>,
-    <span>Split the bill without hassle</span>,
-    <span>
-      Make recurring transfers <br className="desk-only-break" />
-      by setting up Automatic Transfers
-    </span>,
-    <span>
-      Do you still write out your account number to receive money transfers?{" "}
-      <br className="desk-only-break" />
-      You can receive money in just 1 second with a QR code.
-    </span>
-  ];
-
-  const screenSlides = screens.map((screen, index) => {
+  const screenSlides = props.screens.map((screen, index) => {
     const classArr = [styles.screenItem];
     if (currentSlide === index) {
       classArr.push(styles.screenActive);
@@ -54,14 +25,24 @@ const Multislider = () => {
       />
     );
   });
-  const featuresSlides = features.map((feature, index) => {
-    const classList =
-      currentSlide === index
-        ? `${styles.featuresItem} ${styles.featuresActive}`
-        : `${styles.featuresItem}`;
+  const featuresSlides = props.features.map((feature, index) => {
+    const classArr = [styles.featuresItem];
+    if (props.theme === "white") {
+      classArr.push(styles.white);
+      if (currentSlide === index) {
+        classArr.push(styles.featuresActive);
+        classArr.push(styles.whiteActive);
+      }
+    } else if (props.theme === "blue") {
+      classArr.push(styles.blue);
+      if (currentSlide === index) {
+        classArr.push(styles.featuresActive);
+        classArr.push(styles.blueActive);
+      }
+    }
     return (
       <li
-        className={classList}
+        className={classArr.join(" ")}
         key={index}
         id={index}
         onClick={e => handleClick(e)}
@@ -70,12 +51,15 @@ const Multislider = () => {
       </li>
     );
   });
-  const descriptionsSlides = descriptions.map((description, index) => {
-    const classList =
-      currentSlide === index
-        ? `${styles.descriptionsItem} ${styles.descriptionsActive}`
-        : `${styles.descriptionsItem}`;
-    return <div className={classList}>{description}</div>;
+  const descriptionsSlides = props.descriptions.map((description, index) => {
+    const classArr = [styles.descriptionsItem];
+    props.theme === "white"
+      ? classArr.push(styles.whiteDescription)
+      : classArr.push(styles.blueDescription);
+    currentSlide === index
+      ? classArr.push(styles.descriptionsActive)
+      : classArr.push();
+    return <div className={classArr.join(" ")}>{description}</div>;
   });
 
   const handleClick = e => {
@@ -90,11 +74,15 @@ const Multislider = () => {
     <div>
       <div className={styles.image}>
         <div className={styles.device}>
-          <img className={styles.iphone} src={iphoneImg} alt="iphone" />
+          <img className={styles.iphone} src={props.iPhoneImg} alt="iphone" />
           <div className={styles.screens}>{screenSlides}</div>
         </div>
       </div>
-      <div className={styles.features}>
+      <div
+        className={`${styles.features} ${
+          props.theme === "blue" ? styles.featuresBlue : styles.featuresWhite
+        }`}
+      >
         <ul>{featuresSlides}</ul>
       </div>
       <div className={styles.descriptions}>{descriptionsSlides}</div>

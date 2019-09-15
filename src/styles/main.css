@@ -52,4 +52,8 @@ a {
   .onlyMobile {
     display: none !important;
   }
+
+  .mobile-only-break {
+    display: none;
+  }
 }
