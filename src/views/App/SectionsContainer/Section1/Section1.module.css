@@ -1,0 +1,124 @@
+.section {
+  background-color: #fafafa;
+  position: relative;
+  padding: 60px 0;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.particle {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  margin-left: -220px;
+}
+
+.particle img {
+  width: 440px;
+  height: auto;
+}
+
+.certImage {
+  width: 140px;
+  height: auto;
+  margin: 0 4px;
+  margin-bottom: 12px;
+}
+
+.text {
+  margin-top: 54px;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.record {
+  font-size: 36px;
+  line-height: 62px;
+}
+
+.record span {
+  font-weight: 600;
+}
+
+.buttonWrapper {
+  padding-top: 14px;
+}
+
+.button {
+  border-radius: 48px;
+  border: 1px solid #768399;
+  color: #768399;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 18px;
+  vertical-align: middle;
+  transition: all 0.4s ease;
+  margin-left: 8px;
+}
+
+.button:hover {
+  background-color: #303d51;
+  border: 1px solid #303d51;
+  color: white;
+  fill: white;
+}
+
+.desc {
+  font-size: 14px;
+  margin: 74px auto 0 auto;
+  line-height: 22px;
+  width: 85%;
+  max-width: 300px;
+  color: #454f5d;
+}
+
+@media (min-width: 480px) {
+  .section {
+    padding: 240px 0;
+  }
+
+  .wrapper {
+    width: 95%;
+    padding: 0 24px;
+    text-align: left;
+  }
+
+  .particle {
+    position: absolute;
+    top: -10px;
+    left: -77px;
+    margin-left: 0px;
+  }
+
+  .particle img {
+    width: 1142px;
+    height: 494px;
+  }
+
+  .certImage {
+    width: 202px;
+    margin-right: 28px;
+    height: 84px;
+  }
+
+  .text {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 66px;
+  }
+
+  .desc {
+    font-size: 17px;
+    line-height: 27px;
+    margin: 28px 0 0 0;
+  }
+}

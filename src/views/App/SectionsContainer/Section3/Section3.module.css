@@ -1,0 +1,184 @@
+.section {
+  background-color: #fafafa;
+  color: #454f5d;
+  overflow: hidden;
+  min-height: 720px;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.content {
+  position: static;
+  margin: 0;
+  padding-top: 64px;
+  width: 100%;
+  top: 50%;
+}
+
+.text {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 22px;
+  word-break: keep-all;
+  width: 85%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+  color: #454f5d;
+}
+
+.banks {
+  position: static;
+  margin-top: 48px;
+  right: 48px;
+  top: -100px;
+}
+
+.bankItem {
+  margin: 10px auto;
+  width: 290px;
+  height: 65px;
+  text-align: left;
+  background: #ffffff;
+  box-shadow: 4px 6px 9px 0 rgba(58, 62, 49, 0.05),
+    8px 22px 60px 0 rgba(57, 58, 48, 0.07);
+  border-radius: 4px;
+  list-style: none;
+  position: relative;
+}
+
+.bankImg {
+  width: 28px;
+  height: 28px;
+  left: 17px;
+  top: 50%;
+  margin-top: -14px;
+  position: absolute;
+}
+
+.bankText {
+  position: absolute;
+  top: 25px;
+  left: 60px;
+  width: calc(100% - 60px);
+}
+
+.bankName {
+  display: inline-block;
+  font-size: 15px;
+  color: #666666;
+}
+
+.bankBalance {
+  position: absolute;
+  right: 20px;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.buttonWrapper {
+  position: static;
+  text-align: center;
+  display: inline-block;
+  margin-top: 80px;
+}
+
+.button {
+  transition: 0.4s;
+  width: 200px;
+  padding: 16px 28px;
+  background: rgba(0, 0, 0, 0.75);
+  display: inline-block;
+  margin-left: 0;
+  font-size: 15px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translate(0, -1px);
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 480px) {
+  .section {
+    height: 920px;
+  }
+
+  .wrapper {
+    width: 95%;
+    padding: 0 24px;
+    text-align: left;
+  }
+
+  .content {
+    position: absolute;
+    margin-top: -170px;
+    padding-top: 0px;
+  }
+
+  .text {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 66px;
+  }
+
+  .description {
+    font-size: 17px;
+    line-height: 27px;
+    max-width: inherit;
+    width: auto;
+    margin-top: 0;
+  }
+
+  .banks {
+    position: absolute;
+    margin: 0;
+  }
+
+  .bankItem {
+    width: 360px;
+    height: 80px;
+    margin: 0 0 12px 0;
+  }
+
+  .bankText {
+    top: 32px;
+  }
+
+  .buttonWrapper {
+    position: absolute;
+    bottom: 84px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0;
+  }
+
+  .button {
+    transition: 0.4s;
+    width: 200px;
+    padding: 16px 28px;
+    background: rgba(0, 0, 0, 0.75);
+    display: inline-block;
+  }
+}

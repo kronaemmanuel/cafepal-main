@@ -1,0 +1,105 @@
+.prodListWrapper {
+  color: #454f5d;
+  overflow: hidden;
+  height: 720px;
+}
+
+.show {
+  animation-duration: 0.75s;
+  animation-name: show-prodlist;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.3, 0, 0.2, 1);
+  height: 570px;
+  display: block !important;
+}
+
+.hide {
+  animation-duration: 0.75s;
+  animation-name: hide-prodlist;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.3, 0, 0.2, 1);
+}
+
+.prodList {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.show ul {
+  animation-duration: 0.5s;
+  animation-name: show-prodlist-content;
+}
+
+.prodList ul {
+  margin-top: 16px;
+}
+
+.prodListItem {
+  margin-top: 24px;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.prodListImg {
+  width: 120px;
+  height: 309px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+@media (min-width: 480px) {
+  .prodListWrapper {
+    height: 570px;
+  }
+
+  .prodList {
+    width: 95%;
+    padding: 0 24px;
+  }
+
+  .prodList ul {
+    margin-top: 100px;
+  }
+
+  .prodListItem {
+    width: 25%;
+  }
+
+  .prodListImg {
+    height: auto;
+    width: 146px;
+  }
+}
+
+@keyframes show-prodlist {
+  from {
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    height: 570px;
+  }
+}
+
+@keyframes hide-prodlist {
+  to {
+    opacity: 0;
+    height: 0;
+  }
+}
+
+@keyframes show-prodlist-content {
+  from {
+    opacity: 0;
+    transform: scaleY(1.5) translate(0, 100px);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1) translate(0, 0px);
+  }
+}

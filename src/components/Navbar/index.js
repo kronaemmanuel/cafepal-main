@@ -2,16 +2,29 @@ import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import * as ROUTES from "../../constants/routes";
-import { ReactComponent as MobileLogo } from "../../assets/images/logo_mobile.svg";
-import { ReactComponent as DesktopLogo } from "../../assets/images/logo_desktop.svg";
+import { ReactComponent as BlueLogo } from "../../assets/images/logo_blue.svg";
+import { ReactComponent as WhiteLogo } from "../../assets/images/logo_white.svg";
 
-const Navbar = props => {
+const Navbar = () => {
   // TODO: Optimize such that all methods using the scroll event listener actually use information from just one context
-  const [visible, setVisible] = useState(false);
-  const isVisible = visible ? "" : styles.top;
+  const [Scrolled, setScrolled] = useState(false);
+  const [isMobile, setMobile] = useState(false);
+  const isScrolled = Scrolled ? "" : styles.top;
+  let logoImg = <WhiteLogo className={styles.logo} />;
+
+  if (isMobile) {
+    logoImg = <BlueLogo className={styles.logo} />;
+  } else {
+    if (isScrolled) {
+      logoImg = <WhiteLogo className={styles.logo} />;
+    } else {
+      logoImg = <BlueLogo className={styles.logo} />;
+    }
+  }
 
   const show = () => {
-    window.scrollY > 80 ? setVisible(true) : setVisible(false);
+    window.scrollY > 80 ? setScrolled(true) : setScrolled(false);
+    window.innerWidth < 480 ? setMobile(true) : setMobile(false);
   };
 
   useEffect(() => {
@@ -25,12 +38,9 @@ const Navbar = props => {
   });
 
   return (
-    <div className={`${styles.wrapper} ${isVisible}`}>
+    <div className={`${styles.wrapper} ${isScrolled}`}>
       <nav className={styles.navbar}>
-        <Link to={ROUTES.LANDING}>
-          <MobileLogo className={`${styles.logo} onlyMobile`} />
-          <DesktopLogo className={`${styles.logo} onlyDesktop`} />
-        </Link>
+        <Link to={ROUTES.LANDING}>{logoImg}</Link>
         <ul className={styles.menu}>
           <Link to={ROUTES.ABOUT}>
             <li className={styles.item}>About</li>

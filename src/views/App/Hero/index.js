@@ -16,7 +16,7 @@ const Hero = () => {
             <h1 className={styles.text}>
               Toss, Mobile Finance <br /> as it should be
             </h1>
-            <div className={styles.downloadWrapper}>
+            <div className={`${styles.downloadWrapper} onlyDesktop`}>
               <Link className={styles.button} to={ROUTES.DOWNLOADANDROID}>
                 <img src={googleIcon} alt="google" />
                 Google Play
