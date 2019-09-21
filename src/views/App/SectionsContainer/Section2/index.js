@@ -42,6 +42,7 @@ const Section2 = () => {
             Money Transfer
           </h2>
           <Multislider
+            layout="1"
             theme="white"
             iPhoneImg={iPhoneImg}
             screens={screens}

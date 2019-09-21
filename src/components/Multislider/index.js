@@ -26,7 +26,10 @@ const Multislider = props => {
     );
   });
   const featuresSlides = props.features.map((feature, index) => {
-    const classArr = [styles.featuresItem];
+    const classArr = [];
+    props.layout === "1"
+      ? classArr.push(styles.featuresItem)
+      : classArr.push(styles.featuresItemL2);
     if (props.theme === "white") {
       classArr.push(styles.white);
       if (currentSlide === index) {
@@ -72,20 +75,28 @@ const Multislider = props => {
 
   return (
     <div>
-      <div className={styles.image}>
+      <div className={props.layout === "1" ? styles.image : styles.imageL2}>
         <div className={styles.device}>
           <img className={styles.iphone} src={props.iPhoneImg} alt="iphone" />
           <div className={styles.screens}>{screenSlides}</div>
         </div>
       </div>
       <div
-        className={`${styles.features} ${
+        className={`${
+          props.layout === "1" ? styles.features : styles.featuresL2
+        } ${
           props.theme === "blue" ? styles.featuresBlue : styles.featuresWhite
         }`}
       >
         <ul>{featuresSlides}</ul>
       </div>
-      <div className={styles.descriptions}>{descriptionsSlides}</div>
+      <div
+        className={
+          props.layout === "1" ? styles.descriptions : styles.descriptionsL2
+        }
+      >
+        {descriptionsSlides}
+      </div>
     </div>
   );
 };

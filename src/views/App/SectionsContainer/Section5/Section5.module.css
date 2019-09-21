@@ -20,6 +20,7 @@
   position: absolute;
   height: initial;
   width: 100%;
+  padding: 64px 0 0 0;
 }
 
 .text {
@@ -45,6 +46,7 @@
   .content {
     height: 100%;
     position: absolute;
+    padding-top: 0;
   }
 
   .text {

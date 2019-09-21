@@ -1,4 +1,5 @@
-.image {
+.image,
+.imageL2 {
   height: 300px;
   overflow: hidden;
   position: relative;
@@ -48,11 +49,13 @@
   z-index: 2;
 }
 
-.features {
+.features,
+.featuresL2 {
   text-align: center;
 }
 
-.featuresItem {
+.featuresItem,
+.featuresItemL2 {
   margin: 4px 12px 0 4px;
   display: inline-block;
   padding: 14px 1px;
@@ -66,7 +69,8 @@
   border-bottom: 2px solid #454f5d; */
 }
 
-.descriptions {
+.descriptions,
+.descriptionsL2 {
   margin-top: 50px;
   font-size: 15px;
   line-height: 22px;
@@ -126,6 +130,17 @@
     height: auto;
   }
 
+  .imageL2 {
+    position: absolute;
+    left: 50%;
+    bottom: -295px;
+    margin-left: -263px;
+    text-align: left;
+    height: auto;
+    top: auto;
+    right: auto;
+  }
+
   .iphone {
     width: 526px;
     height: 789px;
@@ -152,12 +167,32 @@
     text-align: left;
   }
 
+  .featuresL2 {
+    border: none;
+    text-align: centre;
+  }
+
   .featuresItem {
     margin: 60px 16px 10px 0;
   }
 
+  .featuresItemL2 {
+    display: inline-block;
+    padding: 14px 1px;
+    margin: 30px 16px 0 0;
+  }
+
   .descriptions {
     text-align: left;
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 28px;
+    width: auto;
+    max-width: inherit;
+  }
+
+  .descriptionsL2 {
+    text-align: center;
     font-size: 17px;
     line-height: 27px;
     margin-top: 28px;

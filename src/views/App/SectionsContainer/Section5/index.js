@@ -26,6 +26,7 @@ const Section5 = () => {
             Stay on top of your credit <br /> health with a click
           </h2>
           <Multislider
+            layout="2"
             theme="blue"
             iPhoneImg={iPhoneImg}
             screens={screens}
