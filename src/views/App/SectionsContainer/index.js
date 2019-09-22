@@ -6,6 +6,7 @@ import Section3 from "./Section3";
 import ProductList from "./ProductList";
 import Section4 from "./Section4";
 import Section5 from "./Section5";
+import Section6 from "./Section6";
 
 const SectionsContainer = () => {
   const [prodListVisible, setProdListVisible] = useState(false);
@@ -32,6 +33,9 @@ const SectionsContainer = () => {
       </section>
       <section className={styles.section} id="section5">
         <Section5 />
+      </section>
+      <section className={styles.section} id="section6">
+        <Section6 />
       </section>
     </div>
   );
