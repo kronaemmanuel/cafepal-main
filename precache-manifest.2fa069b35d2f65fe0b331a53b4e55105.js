@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01b6280fbef2b9336cfca4cf7f4bedb8",
+    "revision": "33fa2071adc6bd18cc3bc270f4947fd4",
     "url": "/cafepal-main/index.html"
   },
   {
-    "revision": "ee69ba76717f44eadeb5",
-    "url": "/cafepal-main/static/css/main.d5993dc1.chunk.css"
+    "revision": "b87068c918c4307d17be",
+    "url": "/cafepal-main/static/css/main.641a264a.chunk.css"
   },
   {
-    "revision": "26232d29308df8221e50",
-    "url": "/cafepal-main/static/js/2.cd64705f.chunk.js"
+    "revision": "e34e1716a9a0f5f9b8dc",
+    "url": "/cafepal-main/static/js/2.f77db42d.chunk.js"
   },
   {
-    "revision": "ee69ba76717f44eadeb5",
-    "url": "/cafepal-main/static/js/main.ae2f6b1a.chunk.js"
+    "revision": "b87068c918c4307d17be",
+    "url": "/cafepal-main/static/js/main.49aade68.chunk.js"
   },
   {
     "revision": "55e31c6a5459165899c7",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e25b62b64e5f6bd3aec3bb558912183b",
     "url": "/cafepal-main/static/media/banklist04.e25b62b6.png"
+  },
+  {
+    "revision": "6fb69f00053c90300a19531ef4134afc",
+    "url": "/cafepal-main/static/media/bitcoin.6fb69f00.png"
   },
   {
     "revision": "733a2af14cbef25fd7996cc6b2572c98",
@@ -68,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cafepal-main/static/media/hero_mobile.99bbbddf.png"
   },
   {
+    "revision": "9d645603bd5a8261d27d19bfcb1c0b9c",
+    "url": "/cafepal-main/static/media/invest.9d645603.png"
+  },
+  {
     "revision": "157d3d89def57a5ed59b663f0f6a610e",
     "url": "/cafepal-main/static/media/logo_blue.157d3d89.svg"
   },
@@ -94,5 +102,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec6aae5c1b982291735d66d8868b6774",
     "url": "/cafepal-main/static/media/p1_screen04.ec6aae5c.png"
+  },
+  {
+    "revision": "952d664d282d63603a2c0327feca14ea",
+    "url": "/cafepal-main/static/media/realestate.952d664d.png"
+  },
+  {
+    "revision": "28529c6e281d70fbef28143df979bc02",
+    "url": "/cafepal-main/static/media/toss_plus.28529c6e.png"
   }
 ]);
