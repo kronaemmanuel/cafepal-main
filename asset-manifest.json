@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cafepal-main/static/css/main.d36c7d02.chunk.css",
-    "main.js": "/cafepal-main/static/js/main.6c88ac10.chunk.js",
-    "main.js.map": "/cafepal-main/static/js/main.6c88ac10.chunk.js.map",
+    "main.css": "/cafepal-main/static/css/main.b2fedb24.chunk.css",
+    "main.js": "/cafepal-main/static/js/main.8f9ac0de.chunk.js",
+    "main.js.map": "/cafepal-main/static/js/main.8f9ac0de.chunk.js.map",
     "runtime~main.js": "/cafepal-main/static/js/runtime~main.4387119a.js",
     "runtime~main.js.map": "/cafepal-main/static/js/runtime~main.4387119a.js.map",
-    "static/js/2.74a366cc.chunk.js": "/cafepal-main/static/js/2.74a366cc.chunk.js",
-    "static/js/2.74a366cc.chunk.js.map": "/cafepal-main/static/js/2.74a366cc.chunk.js.map",
+    "static/js/2.b876e5a6.chunk.js": "/cafepal-main/static/js/2.b876e5a6.chunk.js",
+    "static/js/2.b876e5a6.chunk.js.map": "/cafepal-main/static/js/2.b876e5a6.chunk.js.map",
     "index.html": "/cafepal-main/index.html",
-    "precache-manifest.3ab2a587b32f3afcb35d3865302d7a7c.js": "/cafepal-main/precache-manifest.3ab2a587b32f3afcb35d3865302d7a7c.js",
+    "precache-manifest.138bab11cca9ce2f2954015b9a8e3a4c.js": "/cafepal-main/precache-manifest.138bab11cca9ce2f2954015b9a8e3a4c.js",
     "service-worker.js": "/cafepal-main/service-worker.js",
-    "static/css/main.d36c7d02.chunk.css.map": "/cafepal-main/static/css/main.d36c7d02.chunk.css.map",
+    "static/css/main.b2fedb24.chunk.css.map": "/cafepal-main/static/css/main.b2fedb24.chunk.css.map",
     "static/media/banklist01.png": "/cafepal-main/static/media/banklist01.16bad87a.png",
     "static/media/banklist02.png": "/cafepal-main/static/media/banklist02.8e401447.png",
     "static/media/banklist03.png": "/cafepal-main/static/media/banklist03.10cbbd7c.png",
@@ -35,6 +35,8 @@
     "static/media/p1_screen03.png": "/cafepal-main/static/media/p1_screen03.85d6a370.png",
     "static/media/p1_screen04.png": "/cafepal-main/static/media/p1_screen04.ec6aae5c.png",
     "static/media/realestate.png": "/cafepal-main/static/media/realestate.952d664d.png",
-    "static/media/toss_plus.png": "/cafepal-main/static/media/toss_plus.28529c6e.png"
+    "static/media/toss_plus.png": "/cafepal-main/static/media/toss_plus.28529c6e.png",
+    "static/media/wallet.png": "/cafepal-main/static/media/wallet.d00ebd03.png",
+    "static/media/wallet_device.png": "/cafepal-main/static/media/wallet_device.a8ecea4d.png"
   }
 }
