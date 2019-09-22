@@ -1,0 +1,145 @@
+.section {
+  height: 650px;
+  position: relative;
+  background-color: #2d374f;
+  color: white;
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1024px;
+  position: relative;
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content {
+  position: static;
+  padding: 64px 0;
+  margin: 0;
+  width: 100%;
+  top: 50%;
+}
+
+.text {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 22px;
+  word-break: keep-all;
+  width: 85%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+}
+
+.image {
+  position: relative;
+  top: 0;
+  right: 0;
+  margin-top: 18px;
+}
+
+.button {
+  padding: 16px 28px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  bottom: 44px;
+  left: 50%;
+  display: inline-block;
+  margin-left: -130px;
+  transition: 0.4s;
+  z-index: 10;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translate(0, -1px);
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 480px) {
+  .section {
+    height: 1020px;
+  }
+
+  .wrapper {
+    width: 95%;
+    padding: 0 24px;
+  }
+
+  .content {
+    position: absolute;
+    margin-top: -170px;
+    padding: 0;
+    text-align: left;
+  }
+
+  .text {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 66px;
+  }
+
+  .description {
+    font-size: 17px;
+    line-height: 27px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .image {
+    position: absolute;
+    right: -134px;
+    top: -110px;
+  }
+
+  .image img {
+    width: 569px;
+    height: 671px;
+  }
+
+  .logos {
+    margin-top: 100px;
+  }
+
+  .logos img {
+    width: 420px;
+  }
+
+  .button {
+    padding: 16px 28px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    bottom: 84px;
+    left: 50%;
+    display: inline-block;
+    margin-left: -90px;
+    transition: 0.4s;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 480px) {
+  .image img {
+    width: 375px;
+    height: 372px;
+    left: -9999px;
+    right: -9999px;
+    margin: 0 auto;
+    position: absolute;
+  }
+}

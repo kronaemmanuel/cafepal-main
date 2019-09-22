@@ -9,6 +9,7 @@ import Section5 from "./Section5";
 import Section6 from "./Section6";
 import Section7 from "./Section7";
 import Section8 from "./Section8";
+import Section9 from "./Section9";
 
 const SectionsContainer = () => {
   const [prodListVisible, setProdListVisible] = useState(false);
@@ -44,6 +45,9 @@ const SectionsContainer = () => {
       </section>
       <section className={styles.section} id="section8">
         <Section8 />
+      </section>
+      <section className={styles.section} id="section۹">
+        <Section9 />
       </section>
     </div>
   );
