@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33fa2071adc6bd18cc3bc270f4947fd4",
+    "revision": "864fdb7b681f0e4e247b06ef0eadc5e9",
     "url": "/cafepal-main/index.html"
   },
   {
-    "revision": "b87068c918c4307d17be",
-    "url": "/cafepal-main/static/css/main.641a264a.chunk.css"
+    "revision": "d266346405928ab2352d",
+    "url": "/cafepal-main/static/css/main.d36c7d02.chunk.css"
   },
   {
-    "revision": "e34e1716a9a0f5f9b8dc",
-    "url": "/cafepal-main/static/js/2.f77db42d.chunk.js"
+    "revision": "f9fd3d3c4e7a4eea6618",
+    "url": "/cafepal-main/static/js/2.74a366cc.chunk.js"
   },
   {
-    "revision": "b87068c918c4307d17be",
-    "url": "/cafepal-main/static/js/main.49aade68.chunk.js"
+    "revision": "d266346405928ab2352d",
+    "url": "/cafepal-main/static/js/main.6c88ac10.chunk.js"
   },
   {
     "revision": "55e31c6a5459165899c7",
@@ -70,6 +70,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99bbbddfc8f70f57e61bfe38ea730e16",
     "url": "/cafepal-main/static/media/hero_mobile.99bbbddf.png"
+  },
+  {
+    "revision": "fd441e835bcfbf237b0121ff8fc0337f",
+    "url": "/cafepal-main/static/media/insurance_1.fd441e83.png"
+  },
+  {
+    "revision": "d28b9a50db98c728674e94f8be8f8e1f",
+    "url": "/cafepal-main/static/media/insurance_2.d28b9a50.png"
+  },
+  {
+    "revision": "4465f4c2c2713cf8b868a6609f54906f",
+    "url": "/cafepal-main/static/media/insurance_3.4465f4c2.png"
   },
   {
     "revision": "9d645603bd5a8261d27d19bfcb1c0b9c",
