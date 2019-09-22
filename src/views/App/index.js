@@ -4,6 +4,7 @@ import BottomCta from "../../components/BottomCta";
 import Hero from "./Hero";
 import SectionsContainer from "./SectionsContainer";
 import { BrowserRouter as Router } from "react-router-dom";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <BottomCta />
         <Hero />
         <SectionsContainer />
+        <Footer />
       </Router>
     </div>
   );
