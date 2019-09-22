@@ -57,7 +57,7 @@
   display: inline-block;
   margin-left: -130px;
   transition: 0.4s;
-  z-index: 10;
+  z-index: 1;
   border-radius: 100px;
   border: none;
   color: white;
